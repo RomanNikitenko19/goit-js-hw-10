@@ -11,4 +11,5 @@ function fetchCountries(name) {
     })
     .then(response => response.json());
 }
+
 export { URL, fetchCountries };
