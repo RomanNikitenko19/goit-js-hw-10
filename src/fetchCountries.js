@@ -1,9 +1,10 @@
-const URL = 'https://restcountries.com/v3.1/name/';
+const BASE_URL = 'https://restcountries.com/v3.1/name/';
 
 function fetchCountries(name) {
-  return fetch(URL + name)
+  return fetch(BASE_URL + name)
     .then(response => {
-      if (response.error) {
+      console.log(response);
+      if (response.headers.ok === false) {
         console.log(response.error);
         return Promise.reject(new Error(response.error));
       }
@@ -12,4 +13,4 @@ function fetchCountries(name) {
     .then(response => response.json());
 }
 
-export { URL, fetchCountries };
+export { BASE_URL, fetchCountries };
