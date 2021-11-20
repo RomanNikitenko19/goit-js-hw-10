@@ -7,7 +7,7 @@ body {
     Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: rgb(70, 68, 68);
+  background-color: gray;
   color: #380606;
   line-height: 1.5;
 
@@ -20,4 +20,27 @@ body {
   padding: 8px;
   max-width: 320px;
   margin-bottom: 18px;
+}
+
+ul{
+  color:ghostwhite;
+}
+li {
+  color: ghostwhite;
+  display: flex;
+  align-items: center;
+  justify-content: last baseline;
+  list-style-type: none;
+  width: 36;
+  margin: 20px;
+  pad: 10px;
+}
+input{
+  color: #000;
+  margin-top: 20px;
+  margin-left: 62px;
+  border-radius: 0.4rem;
+}
+p{
+  margin-left: 20px;
 }
