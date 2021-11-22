@@ -1,3 +1,6 @@
+import Notiflix from 'notiflix';
+import refs from './refs';
+
 const WIDTH = 70;
 const HEiGHT = 44;
 

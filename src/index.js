@@ -1,9 +1,9 @@
 import './css/styles.css';
-import { BASE_URL, fetchCountries } from './fetchCountries';
-import { creatingMarkup, creatMarkupUpToTenElem, creatMarkupOneElem } from './creatingMarkup';
-import refs from './refs';
 import Notiflix from 'notiflix';
 import debounce from 'lodash.debounce';
+import refs from './refs';
+import { BASE_URL, fetchCountries } from './fetchCountries';
+import { creatingMarkup, creatMarkupUpToTenElem, creatMarkupOneElem } from './creatingMarkup';
 
 const DEBOUNCE_DELAY = 300;
 
